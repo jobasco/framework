@@ -9,7 +9,10 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "slim/slim": "*",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.8",
